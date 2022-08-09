@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D803630228A2ED22000E258E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D803630128A2ED22000E258E /* Models.swift */; };
 		D8835B6828A23942006B2A16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8835B6728A23942006B2A16 /* AppDelegate.swift */; };
 		D8835B6A28A23942006B2A16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8835B6928A23942006B2A16 /* SceneDelegate.swift */; };
-		D8835B6C28A23942006B2A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8835B6B28A23942006B2A16 /* ViewController.swift */; };
 		D8835B6F28A23942006B2A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8835B6D28A23942006B2A16 /* Main.storyboard */; };
 		D8835B7128A23943006B2A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8835B7028A23943006B2A16 /* Assets.xcassets */; };
 		D8835B7428A23943006B2A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8835B7228A23943006B2A16 /* LaunchScreen.storyboard */; };
+		D8835B7C28A23AF4006B2A16 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8835B7B28A23AF4006B2A16 /* SecondVC.swift */; };
+		D8835B7E28A23B1B006B2A16 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8835B7D28A23B1B006B2A16 /* FirstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D803630128A2ED22000E258E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		D8835B6428A23942006B2A16 /* RGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8835B6728A23942006B2A16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8835B6928A23942006B2A16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8835B6B28A23942006B2A16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8835B6E28A23942006B2A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8835B7028A23943006B2A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8835B7328A23943006B2A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8835B7528A23943006B2A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8835B7B28A23AF4006B2A16 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		D8835B7D28A23B1B006B2A16 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				D8835B6728A23942006B2A16 /* AppDelegate.swift */,
 				D8835B6928A23942006B2A16 /* SceneDelegate.swift */,
-				D8835B6B28A23942006B2A16 /* ViewController.swift */,
+				D8835B7B28A23AF4006B2A16 /* SecondVC.swift */,
+				D803630128A2ED22000E258E /* Models.swift */,
+				D8835B7D28A23B1B006B2A16 /* FirstVC.swift */,
 				D8835B6D28A23942006B2A16 /* Main.storyboard */,
 				D8835B7028A23943006B2A16 /* Assets.xcassets */,
 				D8835B7228A23943006B2A16 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8835B6C28A23942006B2A16 /* ViewController.swift in Sources */,
+				D803630228A2ED22000E258E /* Models.swift in Sources */,
 				D8835B6828A23942006B2A16 /* AppDelegate.swift in Sources */,
+				D8835B7E28A23B1B006B2A16 /* FirstVC.swift in Sources */,
+				D8835B7C28A23AF4006B2A16 /* SecondVC.swift in Sources */,
 				D8835B6A28A23942006B2A16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
