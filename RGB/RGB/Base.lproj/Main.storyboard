@@ -32,6 +32,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ozo-FO-A9v" secondAttribute="trailing" constant="67" id="sm8-XY-seC"/>
                             <constraint firstItem="ozo-FO-A9v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="sqv-Yc-hD8"/>
+                            <constraint firstItem="ozo-FO-A9v" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="uKu-xB-ktm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6NC-kz-MjZ"/>

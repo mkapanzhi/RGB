@@ -32,10 +32,17 @@ class SecondVC: UIViewController {
               let blue = editColor?.blue,
               let green = editColor?.green else { return }
         colorView.backgroundColor = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1)
+        redSlider.value = red
+        greenSlider.value = green
+        blueSlider.value = blue
     }
     
     func changeBackgroundColor() {
         colorView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        guard ((editColor?.red = redSlider.value) != nil),
+              ((editColor?.green = greenSlider.value) != nil),
+              ((editColor?.blue = blueSlider.value) != nil) else { return }
+        
     }
     
 }
