@@ -47,7 +47,7 @@
         <!--SecondVC-->
         <scene sceneID="gBk-ej-0US">
             <objects>
-                <viewController id="JgC-Xe-V4c" customClass="SecondVC" customModule="RGB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JgC-Xe-V4c" customClass="SecondVC" customModule="RGB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5l8-Nw-R43">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="sendDataOnFirstVC:" destination="JgC-Xe-V4c" eventType="touchUpInside" id="RHK-xw-HaA"/>
+                                            <action selector="sendDataOnFirstVC:" destination="JgC-Xe-V4c" eventType="touchUpInside" id="XiM-q9-zxW"/>
                                         </connections>
                                     </button>
                                 </subviews>
